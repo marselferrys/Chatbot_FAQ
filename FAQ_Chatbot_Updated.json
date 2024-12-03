@@ -1,0 +1,693 @@
+{
+    "intents": [
+        {
+            "tag": "barang_bawaan_asrama",
+            "patterns": [
+                "Barang pribadi apa saja yang perlu dibawa ke asrama?",
+                "Apa saja barang pribadi yang harus dibawa saat check-in ke asrama?",
+                "Barang apa yang sebaiknya dibawa mahasiswa saat tinggal di asrama?",
+                "Apa saja keperluan pribadi yang perlu dibawa ketika masuk asrama?",
+                "Apa saja barang penting yang perlu disiapkan untuk tinggal di asrama?",
+                "Perlengkapan pribadi apa yang wajib dibawa saat check-in asrama?",
+                "Barang-barang apa yang sebaiknya dibawa ke asrama ITERA?",
+                "Apa saja kebutuhan pribadi yang perlu dibawa saat masuk asrama?",
+                "Apa saja barang yang disarankan untuk dibawa ke asrama?",
+                "Peralatan pribadi apa yang sebaiknya disiapkan saat pindah ke asrama?",
+                "Apa barang-barang esensial yang harus dibawa mahasiswa saat mulai tinggal di asrama?"
+            ],
+            "responses": [
+                "Mahasiswa dibebaskan untuk membawa barang pribadi ke asrama, namun tidak diperkenankan membawa alat elektronik selain Laptop dan Handphone. Selain itu juga tidak diperkenankan membawa senjata tajam, kompor dan lainya. Mahasiswa asrama juga diharapkan membawa alat kebersihan seperti sapu, pel dan lainya karena di asrama tidak disediakan.",
+                "Mahasiswa diizinkan membawa barang pribadi ke asrama, namun alat elektronik yang diperbolehkan hanya laptop dan handphone. Dilarang membawa senjata tajam, kompor, dan barang berbahaya lainnya. Selain itu, mahasiswa diharapkan membawa alat kebersihan seperti sapu dan pel, karena tidak disediakan di asrama.",
+                "Mahasiswa bebas membawa barang pribadi ke asrama, tetapi hanya laptop dan handphone yang diperbolehkan sebagai alat elektronik. Senjata tajam, kompor, dan barang sejenis lainnya tidak diizinkan. Mahasiswa juga diminta untuk membawa peralatan kebersihan seperti sapu dan pel, karena asrama tidak menyediakan fasilitas tersebut.",
+                "Mahasiswa diperbolehkan membawa barang pribadi ke asrama, tetapi hanya laptop dan handphone yang diperkenankan. Alat elektronik lain, senjata tajam, dan kompor dilarang dibawa. Mahasiswa juga disarankan untuk membawa alat kebersihan seperti sapu dan pel, karena tidak ada yang disediakan di asrama.",
+                "Barang pribadi diperbolehkan untuk dibawa ke asrama, tetapi alat elektronik yang diperbolehkan hanya laptop dan handphone. Senjata tajam, kompor, dan barang berbahaya lainnya tidak boleh dibawa. Selain itu, mahasiswa diharapkan membawa alat kebersihan seperti sapu dan pel, karena tidak tersedia di asrama.",
+                "Mahasiswa diizinkan untuk membawa barang pribadi ke asrama, namun hanya laptop dan handphone yang diperbolehkan sebagai alat elektronik. Dilarang membawa senjata tajam, kompor, atau barang berbahaya lainnya. Mahasiswa juga diharapkan membawa alat kebersihan seperti sapu dan pel, karena tidak disediakan oleh asrama.",
+                "Mahasiswa dapat membawa barang pribadi ke asrama, tetapi alat elektronik yang diizinkan hanya laptop dan handphone. Senjata tajam, kompor, dan barang sejenis lainnya dilarang. Di samping itu, mahasiswa diharapkan untuk membawa peralatan kebersihan seperti sapu dan pel, karena tidak ada fasilitas kebersihan yang disediakan di asrama.",
+                "Barang pribadi mahasiswa boleh dibawa ke asrama, tetapi alat elektronik yang diizinkan hanya laptop dan handphone. Senjata tajam, kompor, dan barang berbahaya lainnya tidak boleh dibawa. Mahasiswa juga disarankan untuk membawa alat kebersihan seperti sapu dan pel, karena asrama tidak menyediakan fasilitas tersebut.",
+                "Mahasiswa dibebaskan untuk membawa barang pribadi, tetapi alat elektronik yang diperbolehkan hanya laptop dan handphone. Senjata tajam, kompor, dan barang sejenis lainnya tidak diperkenankan. Selain itu, mahasiswa disarankan untuk membawa alat kebersihan seperti sapu dan pel, karena tidak ada yang disediakan di asrama.",
+                "Mahasiswa diperbolehkan membawa barang pribadi ke asrama, tetapi alat elektronik yang diperkenankan hanya laptop dan handphone. Senjata tajam, kompor, dan barang berbahaya lainnya dilarang dibawa. Mahasiswa juga disarankan untuk membawa alat kebersihan seperti sapu dan pel, karena tidak tersedia di asrama.",
+                "Mahasiswa dapat membawa barang pribadi ke asrama, tetapi hanya laptop dan handphone yang diizinkan sebagai alat elektronik. Dilarang membawa senjata tajam, kompor, dan barang berbahaya lainnya. Selain itu, mahasiswa diharapkan untuk membawa alat kebersihan seperti sapu dan pel, karena tidak ada fasilitas kebersihan di asrama."
+            ]
+        },
+        {
+            "tag": "alur_checkin_asrama",
+            "patterns": [
+                "Apa itu prosedur check-in Asrama ITERA?",
+                "Bagaimana alur check-in untuk penghuni Asrama ITERA?",
+                "Proses check-in asrama ITERA seperti apa?",
+                "Apa langkah-langkah untuk check-in Asrama ITERA?",
+                "Bagaimana cara check-in di Asrama ITERA?",
+                "Tahapan check-in di Asrama ITERA?",
+                "Apa yang harus dilakukan saat check-in di Asrama ITERA?",
+                "Apa prosedur masuk asrama ITERA?",
+                "Langkah-langkah check-in Asrama ITERA?",
+                "Bagaimana proses check-in di Asrama ITERA?",
+                "Alur check-in asrama ITERA apa saja?",
+                "Prosedur penghuni baru di Asrama ITERA?",
+                "Check-in di Asrama ITERA seperti apa caranya?",
+                "Apa saja tahapan check-in di asrama ITERA?",
+                "Apa yang dilakukan untuk check-in di Asrama ITERA?",
+                "Bagaimana proses pendaftaran penghuni di Asrama ITERA?",
+                "Detail alur check-in di Asrama ITERA?",
+                "Bagaimana prosedur check-in mahasiswa baru di Asrama ITERA?",
+                "Langkah-langkah menjadi penghuni Asrama ITERA?",
+                "Apa tahapan resmi untuk check-in Asrama ITERA?",
+                 "alur check-in asrama ITERA"
+            ],
+            "responses": [
+                "Selamat datang di Asrama Mahasiswa ITERA! Prosedur check-in adalah langkah-langkah yang harus diikuti calon penghuni asrama setelah dinyatakan lolos seleksi penerimaan. Prosedur ini bertujuan untuk memastikan kenyamanan dan keamanan seluruh penghuni.\n\nAlur Prosedur Check-In:\n\n1. Memilih Asrama pada pengisian DIM.\n2. Dinyatakan lulus seleksi penerimaan asrama.\n3. Mengisi formulir perjanjian di website asrama ITERA (http://asrama.itera.ac.id/).\n4. Melakukan pembayaran melalui virtual account.\n5. Datang ke Asrama ITERA untuk check-in dan verifikasi berkas fisik.\n6. Mendapatkan kunci kamar dan resmi menjadi penghuni Asrama ITERA."
+            ]
+        },
+        {
+            "tag": "prosedur_Pembayaran_Asrama",
+            "patterns": [
+                "Bagaimana prosedur pembayaran asrama?",
+                "Cara membayar biaya asrama ITERA?",
+                "Langkah-langkah pembayaran asrama ITERA?",
+                "Bagaimana cara pembayaran untuk asrama ITERA?",
+                "Apa prosedur pembayaran asrama ITERA?",
+                "Pembayaran biaya asrama ITERA bagaimana caranya?",
+                "Apa langkah untuk membayar asrama ITERA?",
+                "Proses pembayaran asrama ITERA seperti apa?",
+                "Detail pembayaran asrama ITERA apa saja?",
+                "Cara verifikasi pembayaran asrama ITERA?",
+                "Bagaimana langkah membayar virtual account asrama ITERA?",
+                "Apa yang perlu dilakukan untuk membayar biaya asrama?",
+                "Pembayaran biaya asrama ITERA lewat apa?",
+                "Bagaimana alur pembayaran asrama ITERA?",
+                "Pembayaran untuk asrama ITERA apa saja tahapannya?",
+                "Bagaimana cara menyelesaikan pembayaran biaya asrama?",
+                "Cara transfer biaya asrama ITERA bagaimana?",
+                "Pembayaran biaya asrama ITERA apa saja yang harus dilakukan?",
+                "Langkah-langkah membayar biaya asrama ITERA?",
+                "Apa yang harus disiapkan untuk membayar asrama ITERA?"
+            ],
+            "responses": [
+                "Prosedur Pembayaran:\n\n1. Setelah mengisi formulir perjanjian, Anda akan diberikan virtual account untuk pembayaran.\n2. Lakukan pembayaran sesuai nominal yang tertera.\n3. Simpan bukti pembayaran untuk verifikasi saat check-in."
+            ]
+        },
+        {
+            "tag": "verifikasi_berkas_checkin",
+            "patterns": [
+                "Bagaimana proses verifikasi berkas fisik untuk check-in asrama?",
+                "Apa yang dilakukan saat check-in fisik di Asrama ITERA?",
+                "Bagaimana langkah verifikasi berkas fisik asrama?",
+                "Verifikasi berkas untuk check-in asrama ITERA seperti apa?",
+                "Dokumen apa saja yang diverifikasi saat check-in asrama?",
+                "Proses pengecekan berkas saat check-in asrama ITERA bagaimana?",
+                "Apa saja tahap verifikasi fisik di Asrama ITERA?",
+                "Langkah-langkah verifikasi berkas untuk check-in asrama?",
+                "Bagaimana cara verifikasi berkas fisik di Asrama ITERA?",
+                "Apa yang perlu dibawa saat verifikasi berkas di asrama?",
+                "Bagaimana proses verifikasi dokumen untuk check-in asrama?",
+                "Tahap verifikasi fisik di asrama ITERA seperti apa?",
+                "Apa prosedur check-in fisik di Asrama ITERA?",
+                "Bagaimana proses administrasi saat check-in di Asrama ITERA?",
+                "Dokumen apa saja yang diperiksa saat check-in fisik?",
+                "Bagaimana alur pengecekan dokumen saat check-in di asrama?",
+                "Apa saja yang diverifikasi oleh admin saat check-in asrama?",
+                "Langkah verifikasi berkas asrama ITERA bagaimana?",
+                "Apa yang harus dilakukan pada saat verifikasi dokumen check-in?",
+                "verbek asrama",
+                "verifikasi berkas asrama",
+                 "check-in fisik berkas"
+            ],
+            "responses": [
+                "Proses Check-In Fisik:\n\n1. Datang langsung ke Asrama ITERA dengan membawa dokumen yang dibutuhkan.\n2. Melakukan verifikasi berkas fisik ke admin asrama.\n\nDokumen untuk Verifikasi:\n\n- Surat Perjanjian Tinggal di Asrama (sudah ditandatangani).\n- Surat Pernyataan Tidak Menuntut Ganti Rugi (sudah ditandatangani).\n- Fotokopi KTP, Kartu Keluarga, dan Kartu BPJS Kesehatan.\n- Pas foto ukuran 4×6.\n- Bukti pembayaran asrama.\n- Uang deposit Rp100.000.\n\nSetelah berkas diverifikasi, Anda akan mendapatkan kunci kamar dan diarahkan menuju kamar masing-masing."
+            ]
+        },
+        {
+            "tag": "dokumen_asrama_itera",
+            "patterns": [
+                "dokumen asrama",
+                "unduh dokumen asrama",
+                "Surat rekomendasi pendaftaran Kakak Asrama",
+                "Form Surat Perjanjian Tinggal Di Asrama",
+                "Form Surat Pernyataan Tidak Menuntut Ganti Rugi",
+                "Unduh Dokumen",
+                "dokumen peraturan asrama ITERA lengkap",
+                "Dimana saya bisa unduh dokumen asrama ITERA?",
+                "Apa saja dokumen yang bisa diunduh untuk Asrama ITERA?",
+                "Link dokumen untuk pendaftaran asrama ITERA?",
+                "Formulir untuk tinggal di Asrama ITERA ada di mana?",
+                "Dimana bisa mendapatkan dokumen peraturan asrama ITERA?",
+                "Surat rekomendasi untuk Kakak Asrama ITERA bisa diunduh dimana?",
+                "Link download dokumen asrama ITERA?",
+                "Bagaimana cara unduh form asrama ITERA?",
+                "Unduh form perjanjian tinggal di asrama ITERA?",
+                "Form pernyataan tidak menuntut ganti rugi dimana diunduh?",
+                "Download peraturan umum Asrama ITERA?",
+                "Dimana bisa menemukan dokumen asrama ITERA?",
+                "Apa saja file dokumen resmi dari Asrama ITERA?"
+            ],
+            "responses": [
+                "Surat rekomendasi pendaftaran Kakak Asrama: [Unduh disini](https://docs.google.com/document/d/1G1HG1SVmfC6xtOmqJ3lccNsRlQufYsHi/edit?usp=sharing&ouid=114382538266026034177&rtpof=true&sd=true).\n\nForm Surat Perjanjian Tinggal Di Asrama: [Unduh disini](https://asrama.itera.ac.id/wp-content/uploads/2024/07/Form-Surat-Perjanjian-Tinggal-di-Asrama.docx).\n\nForm Surat Pernyataan Tidak Menuntut Ganti Rugi: [Unduh disini](https://asrama.itera.ac.id/wp-content/uploads/2024/07/Form-Surat-Pernyataan-Tidak-Menunut-Ganti-Rugi.docx).\n\nPeraturan Umum Asrama ITERA 2024: [Unduh disini](https://asrama.itera.ac.id/wp-content/uploads/2024/07/PERATURAN-UMUM-ASRAMA-ITERA.docx)."
+            ]
+        },
+        {
+            "tag": "fungsi_asrama",
+            "patterns": [
+                "Apa fungsi asrama ITERA?",
+                "Mengapa asrama ITERA ada?",
+                "Apa tujuan dari adanya Asrama Mahasiswa ITERA?",
+                "Untuk apa asrama ITERA digunakan?",
+                "Apa peran asrama ITERA untuk mahasiswa?",
+                "Kenapa mahasiswa tinggal di asrama ITERA?",
+                "Bagaimana peran asrama ITERA bagi mahasiswa?",
+                "Apa manfaat utama tinggal di asrama ITERA?"
+            ],
+            "responses": [
+                "Asrama ITERA berfungsi sebagai sarana pendidikan dan tempat tinggal sementara bagi mahasiswa TPB ITERA. Selain itu, asrama juga menjadi tempat yang mendukung kehidupan akademik dan non-akademik mahasiswa.",
+                "Asrama ITERA memiliki tiga fungsi pokok:\n\n1. Mendukung keberhasilan akademik mahasiswa, baik dalam bidang kurikuler maupun non-kurikuler.\n2. Membangun karakter mahasiswa, seperti etika, kedisiplinan, kejujuran, tanggung jawab, dan kepedulian.\n3. Menjadi tempat latihan untuk menjalani kehidupan sosial kemasyarakatan."
+
+            ]
+        },{
+            "tag": "kewajiban_penghuni_asrama",
+            "patterns": [
+                "Apa kewajiban penghuni asrama ITERA?",
+                "Apa yang harus dilakukan penghuni asrama ITERA?",
+                "Apa tanggung jawab mahasiswa yang tinggal di asrama?",
+                "Apa kewajiban utama penghuni asrama ITERA?",
+                "Apa saja peraturan yang harus dipatuhi penghuni asrama ITERA?",
+                "kewajiban penghuni asrama"
+            ],
+            "responses": [
+                "Penghuni asrama ITERA memiliki kewajiban untuk:\n\n1. Membayar biaya asrama sesuai ketentuan.\n2. Mematuhi semua peraturan yang ditetapkan, baik umum maupun khusus.\n3. Bersikap sopan kepada penghuni lain, pengelola asrama, dan pihak terkait.\n4. Menjaga barang pribadi serta fasilitas umum.\n5. Menjaga kebersihan, kenyamanan, dan keamanan lingkungan asrama.\n6. Mematuhi prosedur yang berlaku, termasuk saat keluar dari asrama atau meminjam fasilitas."
+            ]
+        },
+        {
+            "tag": "hak_penghuni_asrama",
+            "patterns": [
+                "Apa hak penghuni asrama ITERA?",
+                "Apa saja hak mahasiswa di asrama ITERA?",
+                "Apa yang didapatkan penghuni asrama ITERA?",
+                "Hak penghuni di asrama ITERA apa saja?",
+                "Apa hak yang dimiliki oleh mahasiswa di asrama ITERA?",
+                "hak penghuni asrama"
+            ],
+            "responses": [
+                "Penghuni asrama ITERA memiliki hak untuk:\n\n1. Mendapatkan kunci kamar.\n2. Menggunakan fasilitas umum dan khusus sesuai standar.\n3. Mendapatkan suasana yang tenang di asrama.\n4. Melaporkan gangguan atau perlakuan yang tidak adil kepada pengelola asrama.\n5. Mendapatkan sikap sopan dan hormat dari penghuni lain serta pengelola asrama."
+            ]
+        },{
+            "tag": "sanksi_pelanggaran_asrama",
+            "patterns": [
+                "Apa sanksi jika melanggar peraturan asrama ITERA?",
+                "Apa konsekuensi melanggar aturan di asrama ITERA?",
+                "Apa hukuman bagi penghuni yang melanggar aturan?",
+                "Bagaimana jika ada yang melanggar peraturan asrama ITERA?",
+                "Apa akibat pelanggaran peraturan di asrama ITERA?",
+                "sanksi asrama"
+            ],
+            "responses": [
+                "Penghuni yang melanggar peraturan asrama ITERA dapat dikenakan sanksi berupa:\n\n1. Peringatan lisan atau tertulis.\n2. Pemindahan kamar.\n3. Pencabutan hak tinggal di asrama tanpa pengembalian biaya.\n4. Sanksi lainnya sesuai kebijakan pengelola asrama atau aturan hukum yang berlaku. \n\n Lengkapnya silahkan baca file peraturan asrama [Unduh disini](https://asrama.itera.ac.id/wp-content/uploads/2024/07/PERATURAN-UMUM-ASRAMA-ITERA.docx)."
+            ]
+        },{
+            "tag": "larangan_penghuni_asrama",
+            "patterns": [
+                "Apa saja yang dilarang di asrama ITERA?",
+                "Larangan untuk penghuni asrama ITERA apa saja?",
+                "Hal apa yang tidak boleh dilakukan di asrama ITERA?",
+                "Apa saja larangan bagi mahasiswa yang tinggal di asrama?",
+                "Apa peraturan yang tidak boleh dilanggar di asrama ITERA?",
+                "Apakah boleh menggandakan kunci kamar di asrama ITERA?",
+                "Bolehkah membawa binatang peliharaan ke asrama ITERA?",
+                "Apakah emergency exit boleh digunakan untuk masuk ke asrama?",
+                "Apa aturan tentang tamu di asrama ITERA?",
+                "Bisakah tamu masuk ke kamar penghuni asrama ITERA?",
+                "Apakah diperbolehkan membuang sampah sembarangan di asrama ITERA?",
+                "Apakah saya boleh membawa lawan jenis ke kamar asrama?",
+                "Apakah rokok diperbolehkan di lingkungan asrama ITERA?",
+                "Apakah boleh menyimpan minuman keras di kamar asrama?",
+                "Bolehkah menggunakan narkoba di asrama ITERA?",
+                "Apa aturan tentang penggunaan senjata api atau benda berbahaya di asrama?",
+                "Apakah boleh menempelkan poster di dinding kamar asrama ITERA?",
+                "Apa larangan tentang pemakaian furnitur di asrama ITERA?",
+                "Bisakah penghuni mengubah posisi tempat tidur di kamar asrama?",
+                "Apa larangan terkait fasilitas listrik di asrama ITERA?",
+                "Apa aturan tentang membawa kompor ke asrama ITERA?",
+                "Apakah boleh membuat coretan di dinding kamar asrama ITERA?",
+                "Apa larangan tentang kebersihan di lingkungan asrama?",
+                "Apakah penghuni boleh menerima tamu setelah jam 9 malam?",
+                "Bisakah saya meminjamkan fasilitas asrama ke teman di luar asrama?",
+                "Apakah penghuni boleh berjualan di gedung asrama?",
+                "Bolehkah penghuni memperbaiki sendiri fasilitas yang rusak di asrama?",
+                "Apakah boleh melakukan kegiatan yang mengganggu ketenangan penghuni lain?",
+                "Apa larangan terkait pornografi di asrama ITERA?",
+                "Apakah diperbolehkan menyebarkan brosur tanpa izin di asrama ITERA?",
+                "Apa aturan tentang merokok di area asrama ITERA?",
+                "Apakah saya boleh membawa tamu pengantar makanan ke kamar?",
+                "Apa saja larangan terkait publikasi tanpa izin di asrama ITERA?",
+                "Bisakah penghuni menggunakan jendela untuk masuk ke kamar?",
+                "Apa larangan terkait peralatan listrik di asrama ITERA?",
+                "Apakah penghuni boleh memindahkan furnitur tanpa izin?",
+                "Bolehkah penghuni menyimpan benda tajam di asrama ITERA?",
+                "Apakah ada aturan tentang berkelahi di asrama ITERA?",
+                "larangan asrama ITERA",
+                "larangan penghuni asrama"
+            ],
+            "responses": [
+                "Penghuni asrama ITERA dilarang untuk:\n\n1. Menggandakan kunci kamar tanpa izin.\n2. Membawa binatang peliharaan.\n3. Memasukkan tamu ke kamar.\n4. Merokok di lingkungan asrama.\n5. Menyimpan atau menggunakan minuman beralkohol, narkoba, senjata api, atau barang berbahaya lainnya.\n6. Membawa lawan jenis ke dalam kamar.\n7. Membuat keributan atau melakukan tindakan yang mengganggu ketenangan.\n8. Membuang sampah sembarangan atau tidak menjaga kebersihan. \n\n Lengkapnya silahkan lihat peraturan asrama [Unduh disini](https://asrama.itera.ac.id/wp-content/uploads/2024/07/PERATURAN-UMUM-ASRAMA-ITERA.docx)"
+            ]
+        },
+                                                                 
+        {
+            "tag": "pembayaran_tunai",
+            "patterns": [
+                "Bayar cash",
+                "Bayar langsung",
+                "bayar asrama tunai",
+                "bayar uang asrama tunai",
+                "bayar uang asrama langsung",
+                "bayar biaya asrama langsung",
+                "Apakah diperbolehkan pembayaran asrama secara cash?",
+                "Apakah pembayaran biaya asrama bisa dilakukan secara cash?",
+                "Bolehkah mahasiswa membayar uang asrama dengan tunai?",
+                "Apakah diperkenankan untuk melakukan pembayaran asrama secara cash?",
+                "Dapatkah pembayaran asrama dilakukan menggunakan uang tunai?",
+                "Apakah ada opsi untuk membayar asrama secara cash?",
+                "Apakah bisa biaya asrama dibayar tunai?",
+                "Apakah bisa biaya asrama dibayar cash?",
+                "Apakah ada pilihan untuk membayar uang asrama dengan uang tunai?",
+                "Bisakah membayar uang asrama secara langsung dengan uang tunai?",
+                "Apakah pembayaran asrama boleh dilakukan tanpa transfer?",
+                "Apakah mahasiswa boleh membayar biaya asrama dengan uang tunai?",
+                "Bagaimana jika saya ingin membayar asrama secara tunai?",
+                "Apakah pembayaran uang asrama secara cash diperbolehkan?",
+                "Bisakah saya membayar asrama tanpa menggunakan metode non-tunai?",
+                "Apakah pembayaran langsung dengan uang tunai diterima untuk biaya asrama?",
+                "Adakah metode pembayaran tunai untuk biaya asrama?",
+                "Apakah uang asrama bisa dibayar langsung secara tunai?"
+            ],
+            "responses": [
+                "Tidak diperbolehkan, karena pembayaran asrama akan dilakukan dengan menggunakan virtual account yang diberikan kepada cendekia asrama dan bukti pembayaran secara fisik (Bukti transfer) akan dilampirkan Ketika melakukan chekin.",
+                "Tidak diperbolehkan, karena pembayaran asrama harus dilakukan melalui virtual account yang diberikan kepada penghuni asrama, dan bukti transfer fisik akan disertakan saat check-in.",
+                "Pembayaran tunai tidak diperbolehkan, karena seluruh pembayaran asrama dilakukan melalui virtual account. Bukti transfer fisik wajib dibawa saat check-in.",
+                "Pembayaran secara cash tidak diperbolehkan. Mahasiswa diwajibkan melakukan pembayaran melalui virtual account, dan bukti pembayaran (bukti transfer) harus dilampirkan ketika check-in."
+            ]
+        },
+        {
+            "tag": "pembayaran_cicilan",
+            "patterns": [
+                "Apakah diperbolehkan melakukan pembayaran asrama setengah dari pembayaran full?",
+                "Apakah bisa membayar biaya asrama separuh terlebih dahulu?",
+                "Bolehkah pembayaran asrama dilakukan setengah dari total biaya?",
+                "Apakah diperkenankan melakukan pembayaran asrama secara cicilan, setengah dari total biaya?",
+                "Apakah pembayaran asrama bisa dilakukan sebagian dulu?",
+                "Apakah ada opsi untuk membayar biaya asrama secara bertahap, misalnya setengah dari total?",
+                "Apakah diperbolehkan membayar setengah dari biaya asrama dan sisanya kemudian?",
+                "Apakah pembayaran asrama dapat dilakukan dengan mencicil setengah dari total?",
+                "Apakah ada kebijakan untuk membayar biaya asrama separuh terlebih dahulu?",
+                "Bisakah saya melakukan pembayaran asrama hanya 50% dari total saat check-in?",
+                "Apakah pembayaran sebagian dari total biaya asrama diperbolehkan?",
+                "Apakah pembayaran biaya asrama bisa dilakukan dalam dua tahap, misalnya setengah dulu?",
+                "Apakah ada ketentuan untuk membayar asrama dengan nominal setengah dari keseluruhan biaya?",
+                "Apakah mungkin membayar biaya asrama setengahnya dulu sebelum check-in?",
+                "Apakah pembayaran asrama bisa dibagi menjadi dua tahap, setengah saat ini dan setengah nanti?",
+                "Dapatkah pembayaran asrama dilakukan sebagian saja di awal?",
+                "Apakah diperbolehkan membayar sebagian dari biaya asrama dan melunasi sisanya kemudian?",
+                "Bolehkah pembayaran asrama dilakukan dalam dua bagian, setengah pada awal dan sisanya kemudian?"
+            ],
+            "responses": [
+                "Pembayaran diharapkan penuh, namun jika ingin membayar setengah, konfirmasi terlebih dahulu dengan pihak asrama.",
+                "Pembayaran sebaiknya dilakukan secara full. Jika hendak membayar setengah, pastikan untuk menghubungi pihak asrama untuk konfirmasi.",
+                "Diutamakan pembayaran penuh, namun jika ingin membayar sebagian, silakan konfirmasi dengan pihak asrama sebelum melakukannya.",
+                "Pembayaran harus full, tetapi jika memilih membayar setengah, harap konfirmasi dulu ke pihak asrama.",
+                "Sebaiknya pembayaran dilakukan secara penuh. Jika ingin membayar separuh, harap koordinasi terlebih dahulu dengan pihak asrama.",
+                "Pembayaran full lebih diutamakan, tetapi jika berencana membayar setengah, diwajibkan untuk melakukan konfirmasi kepada pihak asrama sebelumnya.",
+                "Pembayaran diharapkan secara lengkap. Jika terpaksa membayar setengah, silakan hubungi pihak asrama untuk konfirmasi.",
+                "Mahasiswa diminta untuk membayar penuh. Jika ada keinginan membayar setengah, harap konfirmasi terlebih dahulu kepada pihak asrama.",
+                "Pembayaran seharusnya dilakukan secara full. Apabila membayar setengah, pastikan melakukan konfirmasi dengan pihak asrama terlebih dahulu.",
+                "Pembayaran sebaiknya full, namun jika ingin membayar sebagian, harap konfirmasi terlebih dahulu dengan pihak asrama untuk memastikan.",
+                "Pembayaran diharapkan secara full, jika melakukan pembayaran setengah diharapkan untuk melakukan konfirmasi kepada pihak asrama terlebih dahulu.",
+                "Harap lakukan pembayaran penuh. Jika ingin membayar setengah, mohon konfirmasi terlebih dahulu kepada pihak asrama.",
+                "Pembayaran asrama seharusnya full, tetapi jika membayar setengah, diminta untuk menghubungi pihak asrama untuk konfirmasi.",
+                "Pembayaran asrama diharapkan secara penuh. Jika ingin melakukan pembayaran setengah, konfirmasi ke pihak asrama diperlukan sebelumnya."
+            ]
+        },
+        {
+            "tag": "checkin_tanpa_tinggal",
+            "patterns": [
+                "Apakah diperbolehkan jika mahasiswa setelah mendapat kunci namun belum menempati kamar?",
+                "Apakah mahasiswa diperbolehkan memiliki kunci kamar meskipun belum menempatinya?",
+                "Bolehkah mahasiswa mengambil kunci kamar tanpa langsung menempati kamar?",
+                "Apakah mahasiswa bisa mendapatkan kunci kamar tetapi tidak segera menempatinya?",
+                "Apakah diizinkan bagi mahasiswa untuk memiliki kunci kamar sebelum mereka pindah?",
+                "Bolehkah mahasiswa memegang kunci kamar jika mereka belum siap untuk menempati kamar?",
+                "Apakah diperbolehkan jika mahasiswa menerima kunci tetapi belum memasuki kamar?",
+                "Apakah mahasiswa dapat mendapatkan kunci kamar tanpa segera menggunakan kamar tersebut?",
+                "Apakah mahasiswa boleh memiliki kunci kamar tetapi tidak langsung menempatinya?",
+                "Dapatkah mahasiswa memperoleh kunci kamar jika mereka belum siap untuk tinggal di dalamnya?",
+                "Apakah diperbolehkan mahasiswa memiliki kunci sebelum mereka resmi menempati kamar"
+            ],
+            "responses": [
+                "Tidak diperbolehkan, karena setelah mahasiswa melakukan check-in dan menerima kunci, mereka secara resmi menjadi penghuni asrama TPB ITERA pada hari tersebut.",
+                "Mahasiswa tidak diperbolehkan untuk itu, karena setelah check-in dan mendapatkan kunci, status mereka sebagai cendekia asrama TPB ITERA sudah berlaku sejak hari itu.",
+                "Dilarang, karena saat mahasiswa check-in dan menerima kunci, mereka sudah dianggap sebagai cendekia asrama TPB ITERA pada hari itu juga.",
+                "Tidak diperkenankan, karena setelah check-in dan menerima kunci, mahasiswa telah sah menjadi penghuni asrama TPB ITERA pada hari yang sama.",
+                "Mahasiswa tidak diizinkan untuk melakukannya, karena setelah mendapatkan kunci saat check-in, mereka sudah resmi menjadi cendekia asrama TPB ITERA di hari yang sama.",
+                "idak diperbolehkan, karena ketika mahasiswa telah melakukan check-in dan menerima kunci, mereka telah secara resmi menjadi bagian dari cendekia asrama TPB ITERA.",
+                "Tidak diizinkan, karena dengan check-in dan mendapatkan kunci, mahasiswa sudah dianggap sebagai cendekia asrama TPB ITERA pada hari itu.",
+                "Dilarang, karena setelah mahasiswa melakukan check-in dan menerima kunci, mereka langsung menjadi cendekia asrama TPB ITERA pada hari tersebut.",
+                "Mahasiswa tidak diperbolehkan untuk melakukan itu, karena dengan check-in dan mendapatkan kunci, mereka telah resmi menjadi cendekia asrama TPB ITERA pada hari yang sama.",
+                "Tidak diperkenankan, karena ketika mahasiswa check-in dan mendapatkan kunci, mereka sudah sah sebagai cendekia asrama TPB ITERA pada hari itu juga."
+            ]
+        },
+        {
+            "tag": "ucapan_perpisahan",
+            "patterns": [
+                "Bye",
+                "Sampai jumpa",
+                "Selamat tinggal",
+                "Daa",
+                "Salam",
+                "See you",
+                "Sampai nanti",
+                "keluar"
+            ],
+            "responses": [
+                "Terima kasih telah berkunjung, Sampai jumpa kembali !!!"
+            ]
+        },
+        {
+            "tag": "checkin_diwakilkan",
+            "patterns": [
+                "Apakah check-in Asrama ITERA bisa diwakilkan oleh orang lain?",
+                "Bolehkah proses check-in Asrama ITERA dilakukan oleh perwakilan?",
+                "Apakah diperkenankan check-in Asrama ITERA melalui pihak ketiga?",
+                "Apakah check-in di Asrama ITERA harus dilakukan secara pribadi atau bisa diwakilkan?",
+                "Apakah ada aturan yang mengizinkan check-in Asrama ITERA diwakilkan?",
+                "Apakah diperbolehkan Check-in Asrama diwakilkan?"
+            ],
+            "responses": [
+                "Tidak diperbolehkan, karena Ketika Mahasiswa melakukan checkin akan langsung pada saat itu untuk memasuki asrama dan akan mulai mengikuti aturan yang ada di asrama TPB ITERA.",
+                "Tidak diperbolehkan, karena saat mahasiswa melakukan check-in, mereka akan langsung masuk ke asrama dan mulai mengikuti peraturan yang berlaku di Asrama TPB ITERA.",
+                "Check-in tidak dapat diwakilkan, karena mahasiswa yang check-in akan langsung menempati asrama dan mematuhi aturan Asrama TPB ITERA sejak saat itu."
+            ]
+        },
+        {
+            "tag": "jadwal_checkin_fleksibel",
+            "patterns": [
+                "Bagaimna jika mahasiswa tidak bisa melakukan checkin sesuai jadwal (Dimajukan atau dimundurkan) dari jadwal yang telah ditentukan karena terkendala taransportasi dan jauhnya tempat tinggal?",
+                "Bagaimana jika mahasiswa tidak bisa check-in tepat waktu karena masalah transportasi atau jarak tempat tinggal yang jauh?",
+                "Apakah boleh melakukan check-in lebih awal atau terlambat jika ada kendala transportasi dan tempat tinggal yang jauh?",
+                "Apakah ada kebijakan jika mahasiswa tidak bisa check-in sesuai jadwal karena alasan transportasi atau jarak tempat tinggal?",
+                "Bagaimana prosedur jika mahasiswa harus memajukan atau memundurkan jadwal check-in karena kendala jarak dan transportasi?",
+                "Apa yang harus dilakukan jika mahasiswa tidak dapat check-in sesuai jadwal akibat masalah transportasi atau lokasi tempat tinggal yang jauh?",
+                "Apakah mahasiswa bisa meminta perubahan jadwal check-in jika terkendala jarak atau masalah transportasi?",
+                "Bisakah jadwal check-in diubah jika mahasiswa memiliki kesulitan transportasi atau jarak tempat tinggal yang terlalu jauh?",
+                "Bagaimana solusi bagi mahasiswa yang tidak bisa check-in sesuai jadwal karena kesulitan transportasi dan lokasi yang jauh?",
+                "Apa langkah yang harus diambil jika mahasiswa tidak dapat check-in tepat waktu karena terkendala transportasi dan jarak?",
+                "Dapatkah mahasiswa mengubah jadwal check-in jika lokasi tempat tinggalnya jauh dan mengalami kesulitan transportasi?"
+            ],
+            "responses": [
+                "Diperbolehkan jika memang mendesak dan hal yang memang tidak bisa diusahakan pada jadwal yang ditetapkan, namun dengan syarat waktu tersebut masih dalam kurun waktu chekin, yang artinya masih dalam rentang pekan chekin yang ditetapkan bukan di luar waktu chekin yang ditetapkan.",
+                "Diperbolehkan jika memang mendesak dan tidak bisa dihindari, asalkan masih dalam rentang waktu check-in yang telah ditetapkan, bukan di luar periode check-in.",
+                "Jika ada keadaan mendesak yang tidak dapat diatasi, perubahan jadwal check-in diperbolehkan selama masih dalam minggu check-in yang ditentukan, dan bukan di luar periode tersebut.",
+                "Pengubahan jadwal check-in diperbolehkan jika ada alasan mendesak, namun tetap harus dilakukan dalam waktu yang masih berada dalam pekan check-in, bukan di luar jadwal yang telah ditetapkan.",
+                "Diperbolehkan untuk memajukan atau memundurkan check-in jika ada alasan mendesak, dengan catatan perubahan tersebut masih dalam rentang waktu check-in yang ditentukan.",
+                "Jika tidak bisa check-in sesuai jadwal karena alasan yang mendesak, diperbolehkan mengubah waktu check-in, namun harus tetap dalam pekan check-in yang telah dijadwalkan.",
+                "Perubahan waktu check-in diperbolehkan jika kondisi mendesak, namun hanya selama waktu tersebut masih dalam periode check-in yang telah ditetapkan.",
+                "Diperbolehkan untuk menyesuaikan waktu check-in karena alasan mendesak, namun harus dilakukan dalam kurun waktu check-in yang telah ditentukan, dan bukan di luar waktu tersebut.",
+                "Apabila ada situasi mendesak, jadwal check-in dapat diubah, asalkan masih dalam minggu check-in yang ditentukan dan bukan di luar waktu yang telah dijadwalkan.",
+                "Diperbolehkan untuk mengubah jadwal check-in jika ada keadaan darurat, dengan syarat perubahan tersebut masih dalam rentang waktu yang ditetapkan untuk check-in, bukan di luar periode yang dijadwalkan.",
+                "Pengubahan jadwal check-in bisa dilakukan jika benar-benar mendesak, namun tetap harus dilakukan dalam waktu yang sudah ditentukan, yaitu masih dalam pekan check-in."
+            ]
+        },
+        {
+            "tag": "fasilitas_asrama_itera",
+            "patterns": [
+                "Apa saja fasilitas asrama?",
+                "Fasilitas apa saja yang disediakan di Asrama ITERA?",
+                "Apa saja sarana yang ada di Asrama ITERA?",
+                "Fasilitas apa yang diberikan kepada penghuni Asrama ITERA?",
+                "Apa saja kelengkapan yang disediakan di asrama bagi penghuni?",
+                "Fasilitas apa yang disediakan oleh Asrama ITERA untuk penghuni?",
+                "Bagaimana dengan fasilitas yang ada di Asrama ITERA?",
+                "Fasilitas apa yang dapat digunakan mahasiswa di Asrama ITERA?",
+                "Apa sarana dan prasarana yang disediakan di Asrama ITERA?",
+                "Asrama ITERA menyediakan fasilitas apa saja?",
+                "Fasilitas apa yang tersedia bagi penghuni asrama di ITERA?",
+                "Fasilitas apa yang ada di setiap kamar Asrama ITERA?",
+                "Apa saja fasilitas dan kelengkapan yang disediakan di Asrama ITERA?"
+            ],
+            "responses": [
+                "1 kamar akan diisi oleh 3/4 orang mahasiswa asrama yang telah dilengkapi dengan Kasur, bantal, kamar mandi,lemari, meja, dan kursi belajar. listrik dan air gratis dan tedapat lapangan bola untuk olahraga serta taman untuk ruang hijau",
+                "Satu kamar akan dihuni oleh 3-4 mahasiswa dan dilengkapi dengan kasur, bantal, kamar mandi, lemari, meja, serta kursi belajar. Listrik dan air gratis, juga tersedia lapangan bola dan taman sebagai ruang hijau.",
+                "Setiap kamar dihuni oleh 3-4 orang mahasiswa dan dilengkapi dengan kasur, bantal, lemari, kamar mandi, meja, dan kursi belajar. Penghuni mendapatkan listrik dan air gratis, serta tersedia lapangan bola dan taman sebagai area hijau.",
+                "Kamar di asrama diisi oleh 3-4 mahasiswa dengan fasilitas seperti kasur, bantal, kamar mandi, lemari, meja, dan kursi belajar. Listrik dan air disediakan gratis, ditambah lapangan bola dan taman sebagai ruang hijau.",
+                "Kamar asrama akan ditempati oleh 3-4 orang mahasiswa, dengan fasilitas kasur, bantal, kamar mandi, lemari, meja, dan kursi belajar. Listrik dan air gratis, serta ada lapangan bola dan taman hijau.",
+                "Satu kamar akan diisi oleh 3-4 mahasiswa dengan fasilitas lengkap seperti kasur, bantal, kamar mandi, lemari, meja, dan kursi belajar. Selain itu, penghuni juga mendapat listrik dan air gratis, serta bisa menggunakan lapangan bola dan taman hijau.",
+                "Tiap kamar di asrama diisi oleh 3-4 mahasiswa, dengan fasilitas kasur, bantal, kamar mandi, lemari, meja, dan kursi belajar. Penghuni juga mendapatkan listrik dan air gratis, serta tersedia lapangan bola dan taman hijau untuk aktivitas outdoor.",
+                "Satu kamar asrama akan dihuni oleh 3-4 mahasiswa dengan fasilitas kasur, bantal, lemari, kamar mandi, meja, dan kursi belajar. Listrik dan air gratis, serta ada lapangan bola dan taman untuk aktivitas luar ruangan.",
+                "Setiap kamar asrama diisi 3-4 orang mahasiswa dengan fasilitas kasur, bantal, kamar mandi, lemari, meja, dan kursi belajar. Listrik dan air disediakan gratis, juga terdapat lapangan bola dan taman sebagai ruang hijau.",
+                "Kamar akan dihuni 3-4 mahasiswa, dilengkapi kasur, bantal, kamar mandi, lemari, meja, dan kursi belajar. Penghuni juga mendapat listrik dan air gratis, serta akses ke lapangan bola dan taman sebagai ruang hijau.",
+                "Setiap kamar di asrama akan dihuni oleh 3-4 orang mahasiswa dengan fasilitas kasur, bantal, lemari, meja, kursi belajar, dan kamar mandi. Selain itu, listrik dan air gratis, serta ada lapangan bola dan taman hijau untuk rekreasi."
+            ]
+        },
+        {
+            "tag": "jadwal_checkin_asrama",
+            "patterns": [
+                "Kapan jadwal check-in Asrama ITERA periode 2024/2025?",
+                "Kapan pelaksanaan check-in Asrama ITERA tahun ajaran 2024/2025?",
+                "Kapan check-in Asrama ITERA dimulai untuk tahun ajaran 2024/2025?",
+                "Pada tanggal berapa check-in Asrama ITERA 2024/2025 dimulai?",
+                "Bagaimana jadwal check-in Asrama ITERA tahun 2024/2025?",
+                "Kapan waktu check-in mahasiswa baru Asrama ITERA 2024/2025?",
+                "Bisakah diinformasikan jadwal check-in Asrama ITERA untuk periode 2024/2025?",
+                "Check-in Asrama ITERA 2024 kapan mulai?",
+                "Jadwal check-in Asrama ITERA untuk 2024/2025 apa sudah ada?",
+                "Apakah jadwal check-in Asrama ITERA 2024/2025 sudah diumumkan?",
+                "Kapan mahasiswa baru ITERA bisa check-in asrama tahun 2024/2025?",
+                "Kapan jadwal check-in untuk penghuni baru Asrama ITERA?",
+                "Apakah jadwal check-in Asrama ITERA 2024 sudah keluar?",
+                "Kapan waktu check-in untuk mahasiswa baru asrama ITERA periode 2024/2025?",
+                "Check-in Asrama ITERA untuk tahun 2024 dimulai kapan?",
+                "Jadwal check-in Asrama ITERA untuk jalur SNBP dan SNBT kapan diumumkan?",
+                "Kapan waktu check-in mahasiswa baru asrama ITERA diumumkan?",
+                "Check-in Asrama ITERA jadwalnya kapan dibuka?",
+                "Informasi check-in Asrama ITERA 2024/2025 apa sudah ada?",
+                "Jadwal check-in untuk penghuni Asrama ITERA kapan?",
+                "jadwal check-in asrama"
+            ],
+            "responses": [
+                "Jadwal check-in Asrama periode 2024/2025 akan diinformasikan lebih lanjut, karena pengumuman penghuni asrama masih menunggu hasil seleksi mahasiswa baru jalur SNBT.",
+                "Check-in Asrama periode 2024/2025 belum diumumkan, karena pengumuman penghuni asrama untuk jalur SNBP dan SNBT akan dilakukan bersamaan setelah seleksi SNBT selesai.",
+                "Informasi mengenai jadwal check-in Asrama ITERA 2024/2025 akan diumumkan kemudian, karena masih menunggu hasil seleksi mahasiswa baru jalur SNBT.",
+                "Check-in Asrama ITERA untuk tahun ajaran 2024/2025 akan diinfokan setelah pengumuman mahasiswa baru jalur SNBT selesai. Harap menunggu informasi resmi lebih lanjut.",
+                "Jadwal check-in Asrama ITERA periode 2024/2025 akan diumumkan bersamaan dengan hasil pengumuman penghuni asrama dari jalur SNBP dan SNBT."
+            ]
+        },
+        {
+            "tag": "pendamping_orangtua",
+            "patterns": [
+                "Apakah orang tua boleh ikut mengantar mahasiswa ke dalam kamar?",
+                "Bolehkah orang tua menemani mahasiswa masuk ke kamar?",
+                "Apakah orang tua diizinkan mendampingi mahasiswa hingga kamar?",
+                "Apakah orang tua diperbolehkan masuk ke lantai tempat kamar mahasiswa?",
+                "Orang tua boleh masuk kamar mahasiswa atau tidak?",
+                "Apakah orang tua diperbolehkan menemani mahasiswa sampai kamar mereka?",
+                "Orang tua bisa ikut sampai kamar mahasiswa tidak?",
+                "Bolehkah orang tua ikut mendampingi mahasiswa hingga kamar mereka?",
+                "Apakah orang tua boleh menemani anaknya sampai ke dalam kamar asrama?",
+                "Apakah orang tua diizinkan untuk mengantar mahasiswa sampai kamar?",
+                "Apakah orang tua boleh ikut masuk ke area kamar mahasiswa?",
+                "Bolehkah orang tua mendampingi mahasiswa ke kamar mereka?",
+                "Apakah mahasiswa boleh ditemani orang tua saat masuk kamar?",
+                "Orang tua bisa mengantar mahasiswa ke kamar atau tidak?",
+                "Apakah orang tua boleh ikut mengantar barang sampai kamar mahasiswa?",
+                "Apakah orang tua diizinkan menemani mahasiswa saat penempatan kamar?",
+                "Orang tua bisa ikut mengantarkan anaknya ke kamar asrama?",
+                "Bolehkah orang tua mengantar barang-barang mahasiswa sampai kamar?",
+                "Apakah orang tua diizinkan naik ke lantai kamar mahasiswa?",
+                "Orang tua boleh ikut masuk area lantai kamar mahasiswa?",
+                "orang tua ikut",
+                "mamak ikut",
+                "bolehkah mengajak bapak saya masuk asrama?",
+                "bolehkah mengajak mamak saya masuk asrama",
+                "bolehkah mengajak ibu saya masuk asrama",
+                "bolehkah mengajak ayah saya masuk asrama",
+                "bolehkah orang tua saya menginap di asrama?",
+                "bisakah mengajak bapak saya masuk asrama?",
+                "bisakah mengajak mamak saya masuk asrama",
+                "bisakah mengajak ibu saya masuk asrama",
+                "bisakah mengajak ayah saya masuk asrama"
+            ],
+            "responses": [
+                "Tidak diperbolehkan, orang tua hanya diperkenankan untuk mengantarkan mahasiswa hingga lantai dasar. Terkait dengan kebutuhan dan hal lainya akan dibantu oleh kakak asrama di tiap lantai.",
+                "Tidak diperbolehkan, orang tua hanya diizinkan mengantar mahasiswa sampai ke lantai dasar. Untuk kebutuhan lainnya, kakak asrama di setiap lantai akan membantu.",
+                "Dilarang, orang tua hanya boleh mengantar mahasiswa hingga ke lantai dasar. Bantuan untuk kebutuhan lain akan disediakan oleh kakak asrama di masing-masing lantai.",
+                "Tidak diizinkan, orang tua hanya diperkenankan mengantar mahasiswa sampai ke lantai dasar. Kakak asrama di setiap lantai akan siap membantu dengan kebutuhan lainnya.",
+                "Tidak diperbolehkan, orang tua hanya bisa mengantar mahasiswa sampai lantai dasar. Semua kebutuhan dan hal lainnya akan ditangani oleh kakak asrama di tiap lantai."
+            ]
+        },
+        {
+            "tag": "ucapan_sapaan",
+            "patterns": [
+                "Halo",
+                "Hi",
+                "Hai",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat sore",
+                "Selamat malam",
+                "Pagi",
+                "Siang",
+                "Sore",
+                "Assalamualaikum",
+                "Hey",
+                "Helo",
+                "hello",
+                "Hello ITERA Friends",
+                "chatbot",
+                "bot",
+                "halo bot",
+                "halo chatbot",
+                "woi"
+            ],
+            "responses": [
+                "Hi kenalkan saya chatbot FAQ yang siap menjawab pertanyaan anda",
+                "Halo kenalkan saya chatbot FAQ yang siap menjawab pertanyaan anda",
+                "Hello kenalkan saya chatbot FAQ yang siap menjawab pertanyaan anda",
+                "Hi ITERA Friends, kenalkan saya chatbot FAQ yang siap menjawab pertanyaan anda"
+            ]
+        },
+        {
+            "tag": "Hari_operasional_checkin",
+            "patterns": [
+                "Kapan waktu check-in diperbolehkan?",
+                "Hari apa saja bisa check-in?",
+                "Waktu operasional check-in Asrama ITERA?",
+                "Kapan waktu yang diperbolehkan untuk check-in?",
+                "Jam berapa dan hari apa bisa check-in?",
+                "Pada hari apa diperbolehkan untuk check-in?",
+                "Kapan mahasiswa bisa check-in di asrama?",
+                "Waktu check-in Asrama ITERA?",
+                "Check-in dilakukan kapan?",
+                "Jam dan hari operasional check-in asrama",
+                "Hari apa saja diperbolehkan check-in di Asrama ITERA?",
+                "Apakah bisa check-in di akhir pekan?",
+                "Check-in hanya boleh dilakukan kapan?",
+                "Check-in di Asrama ITERA dilakukan pada hari apa?",
+                "Hari dan jam apa check-in diperbolehkan?",
+                "Apakah check-in bisa dilakukan di luar jam kerja?",
+                "Apakah check-in bisa dilakukan hari Sabtu atau Minggu?",
+                "Check-in di hari kerja pukul berapa?",
+                "hari check-in asrama"
+            ],
+            "responses": [
+                "Mahasiswa diperbolehkan check-in pada hari Senin hingga Jumat dari pukul 08.00 WIB hingga 16.30 WIB sesuai jadwal operasional asrama.",
+                "Check-in dapat dilakukan pada hari kerja, yaitu Senin sampai Jumat, mulai pukul 08.00 WIB hingga 16.30 WIB.",
+                "Waktu check-in di Asrama ITERA adalah pada hari kerja (Senin-Jumat) dari jam 08.00 pagi sampai 16.30 sore.",
+                "Mahasiswa diizinkan untuk check-in pada hari Senin hingga Jumat selama jam operasional 08.00 WIB - 16.30 WIB.",
+                "Check-in hanya dapat dilakukan pada hari kerja (Senin-Jumat) sesuai jam kerja operasional asrama, yaitu 08.00 WIB sampai 16.30 WIB."
+            ]
+        },
+        {
+            "tag": "berkas_checkin_asrama",
+            "patterns": [
+                "Dokumen apa saja yang harus dibawa saat check-in di Asrama ITERA?",
+                "Apa saja berkas yang diperlukan untuk check-in Asrama ITERA?",
+                "Syarat administrasi apa yang perlu disiapkan untuk check-in asrama?",
+                "Dokumen apa saja yang harus dibawa saat check-in di Asrama ITERA?",
+                "Apa saja berkas yang diperlukan untuk check-in Asrama ITERA?",
+                "Syarat administrasi apa yang perlu disiapkan untuk check-in asrama?",
+                "Apa yang harus dibawa untuk proses check-in di Asrama ITERA?",
+                "Dokumen apa yang wajib diserahkan saat check-in di Asrama ITERA?",
+                "Apa saja persyaratan administrasi untuk check-in asrama?",
+                "Apa berkas yang dibutuhkan saat masuk asrama ITERA?",
+                "Berkas apa yang perlu disiapkan saat daftar masuk asrama ITERA?",
+                "Syarat dokumen apa yang diperlukan untuk masuk Asrama ITERA?",
+                "Apa saja surat atau dokumen untuk pendaftaran Asrama ITERA?",
+                "Apakah perlu membawa dokumen khusus untuk check-in asrama ITERA?",
+                "Apa saja yang harus dibawa saat masuk pertama kali ke Asrama ITERA?",
+                "Berkas apa saja yang wajib saat registrasi di Asrama ITERA?",
+                "Apa persyaratan dokumen untuk penghuni baru Asrama ITERA?",
+                "Apa dokumen utama yang harus dibawa saat check-in di Asrama ITERA?",
+                "Apakah ada dokumen tambahan yang dibutuhkan untuk check-in di asrama ITERA?",
+                "Daftar berkas apa yang harus disiapkan saat masuk asrama ITERA?",
+                "Apa saja dokumen yang diminta saat pendaftaran ulang asrama ITERA?",
+                "Syarat dokumen apa yang harus diserahkan saat tinggal di asrama ITERA?",
+                "Apakah KTP atau kartu mahasiswa diperlukan saat check-in asrama ITERA?",
+                "Formulir apa saja yang harus diisi untuk check-in asrama?",
+                "Apa saja dokumen yang harus dibawa saat check-in ke Asrama ITERA?",
+                "Check-in Asrama ITERA perlu apa saja?",
+                "Persyaratan check-in asrama",
+                "Dokumen untuk check-in di Asrama ITERA"
+            ],
+            "responses": [
+                "Dokumen yang perlu dibawa saat check-in Asrama ITERA:\n1. Surat Perjanjian Tinggal di Asrama (sudah ditandatangani) – [Unduh di sini](https://asrama.itera.ac.id/wp-content/uploads/2023/07/Form-Surat-Perjanjian-Tinggal-di-Asrama.docx).\n2. Surat Pernyataan Tidak Menuntut Ganti Rugi (sudah ditandatangani) – [Unduh di sini](https://asrama.itera.ac.id/wp-content/uploads/2023/07/Form-Surat-Pernyataan-Tidak-Menunut-Ganti-Rugi.docx).\n3. Fotokopi KTP (2 lembar).\n4. Pas foto ukuran 4×6 (2 lembar).\n5. Fotokopi Kartu Keluarga (2 lembar).\n6. Bukti pembayaran iuran asrama (asli).\n7. Fotokopi kartu BPJS Kesehatan.\n8. Uang deposit Rp100.000.\n9. Bukti pembayaran asrama.\n\nSemua dokumen dimasukkan ke dalam map untuk verifikasi."
+            ]
+        },
+        {
+            "tag": "lokasi_asrama_itera",
+            "patterns": [
+                "Dimana lokasi Asrama ITERA?",
+                "Alamat lengkap Asrama ITERA dimana?",
+                "Asrama ITERA berlokasi di mana?",
+                "Apa alamat Asrama ITERA?",
+                "Dimana letak Asrama ITERA?",
+                "Bagaimana cara menuju Asrama ITERA?",
+                "Dimana alamat Asrama Mahasiswa ITERA?",
+                "Lokasi Asrama ITERA ada di mana?",
+                "Bisa berikan alamat Asrama ITERA?",
+                "Link maps untuk lokasi Asrama ITERA?",
+                "lokasi asrama itera",
+                "link maps asrama ITERA",
+                "alamat lengkap asrama ITERA",
+                "asrama ITERA ada di dekat mana ?",
+                "asrama ITERA ada di gedung apa?"
+            ],
+            "responses": [
+                "Jalan Terusan Ryacudu, Way Hui, Jati Agung, Lampung Selatan, Tanjungkarang, Lampung, Indonesia 35365.\n\nLink maps: [https://maps.app.goo.gl/N1vx9r42k7Ljju6Q8](https://maps.app.goo.gl/N1vx9r42k7Ljju6Q8)"
+            ]
+        },        
+        {
+            "tag": "tentang_asrama",
+            "patterns": [
+                "Apa itu asrama ITERA?",
+                "Bagaimana pengertian asrama ITERA?",
+                "Apa yang dimaksud dengan asrama ITERA?",
+                "Asrama ITERA itu seperti apa?",
+                "Jelaskan tentang asrama ITERA!",
+                "apa maksud asrama ITERA?",
+                "tentang asrama ITERA",
+                "tentang asrama Institut Teknologi Sumatera",
+                "apa asrama itera itu?",
+                "asrama itera"
+            ],
+            "responses": [
+                "Asrama ITERA adalah fasilitas tempat tinggal yang disediakan oleh Institut Teknologi Sumatera (ITERA) untuk mahasiswa, terutama mahasiswa baru dari luar Kota Bandar Lampung. Asrama ini tidak hanya menjadi tempat tinggal, tetapi juga bagian dari pembinaan mahasiswa melalui program-program yang mendukung pembelajaran, pengembangan karakter, dan kehidupan sosial. ITERA memulai pelaksanaan program asrama pada tahun 2017 untuk mahasiswa tingkat pertama."
+            ]
+        },        
+        {
+            "tag": "biaya_asrama_itera",
+            "patterns": [
+                "Berapa biaya tinggal di Asrama ITERA?",
+                "Apakah ada deposit yang harus dibayarkan saat check-in?",
+                "Berapa uang asrama di ITERA?",
+                "Berapa biaya asrama di ITERA?",
+                "Apa saja biaya yang harus dibayarkan untuk tinggal di asrama ITERA?",
+                "Berapa harga kamar di asrama ITERA?",
+                "Apakah asrama ITERA gratis?",
+                "Berapa biaya bulanan asrama ITERA?",
+                "Berapa biaya tahunan asrama ITERA?",
+                "Apakah mahasiswa baru membayar biaya untuk tinggal di asrama ITERA?",
+                "Apa saja komponen biaya asrama ITERA?",
+                "Apakah ada tambahan biaya untuk fasilitas asrama ITERA?",
+                "Berapa deposit awal untuk tinggal di asrama ITERA?",
+                "Biaya check-in asrama ITERA berapa?",
+                "Apakah mahasiswa penerima beasiswa harus membayar asrama ITERA?",
+                "Biaya tinggal di asrama ITERA mahal atau tidak?",
+                "Apa syarat pembayaran biaya asrama ITERA?",
+                "Berapa tarif kamar asrama ITERA?",
+                "Apakah biaya asrama ITERA termasuk listrik dan air?",
+                "biaya asrama ITERA",
+                "uang asrama ITERA",
+                "biaya tinggal di asrama"
+            ],
+            "responses": [
+                "Biaya Asrama:\n- Rp200.000 per bulan, dibayarkan sekaligus untuk satu tahun.\n- Uang deposit Rp100.000 (untuk kunci, kartu deposit, dan kartu penghuni)."
+            ]
+        }
+    ]
+}
